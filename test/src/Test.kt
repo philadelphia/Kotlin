@@ -1,92 +1,94 @@
-import deligate.Bird
-import deligate.BirdMan
+import delegate.Bird
+import delegate.BirdMan
+import delegate.Example
+import delegate.User
 import entity.*
 
 /**
  * Created by Tao.ZT.Zhang on 2017/6/14.
  */
 fun main(args: Array<String>) {
-    var person:Person = Person("xx", 24)
-    var student:Student = Student(70)
-    student.printInfo()
-    var fooString = "ddd"
-    val fooTemplateString = "$fooString has ${fooString.length} characters"
-    println(fooTemplateString)
-
-    var fooNullable: String? = "abc"
-    println(fooNullable?.length) // => 3
-    println(fooNullable?.length ?: -1) // => 3
-    fooNullable = null
-    println(fooNullable?.length) // => null
-    println(fooNullable?.length ?: -1) // => -1
-//    main()
-    println(varArgFun(1))
-    println(varArgFun(1, 2))
-    println(varArgFun(1, 2, 3, 4, 5, 6))
-
-    println(isOdd(3))
-    println(isOdd(4))
-
-    var numberTest:NumberTest = NumberTest(4)
-    println(numberTest.add(5))
-    println(numberTest.multi(5))
-
-    var dataBean:DataBean = DataBean(3,5)
-    println(dataBean.hashCode())
-    println(dataBean.toString())
-    println(dataBean.equals(DataBean(3,5)))
-    with(dataBean){
-        x -= 5
-        y += 5
-    }
-    println(dataBean.toString())
-
-    var dataBean1 = dataBean.copy(y=2)
-    println("------dataBean1---------")
-    println(dataBean1.toString())
-
-    var(a, b) = dataBean;
-    println("$a,$b")
-
-    for ((a ,b) in listOf(dataBean)){
-        print("$a,$b")
-    }
-
-    println()
-    /*----List-----*/
-//    testListOf()
-//    testMutableList()
-//    testSet()
-//    testMap()
-//    testSequence()
-
-//    testLoop()
-//println(smartCastExample(4))
-//println(smartCastExample("test"))
-//println(smartCastExample(false))
-
-    println(smartCastwithWhen(4))
-    println(smartCastwithWhen("test"))
-    println(smartCastwithWhen(false))
-    println(smartCastwithWhen(10.5))
-
-    fun String.remove(char:Char):String{
-        return this.filter { it != char }
-    }
-
-    println("Hello,World".remove('o'))
-
-    println(EnumClass.A)
-    println(EnumClass.B)
-    println(EnumClass.C)
-
-    var objectEx1 :ObjectExample = ObjectExample;
-    var objectEx2 :ObjectExample = ObjectExample;
-    objectEx1.hello()
-    println("objectEx1's hashCode" + objectEx1.hashCode())
-    println("objectEx2's hashCode" + objectEx2.hashCode())
-    var primary = PrimarySutdent
-    println(primary.printInfo())
+//    var person:Person = Person("xx", 24)
+//    var student:Student = Student(70)
+//    student.printInfo()
+//    var fooString = "ddd"
+//    val fooTemplateString = "$fooString has ${fooString.length} characters"
+//    println(fooTemplateString)
+//
+//    var fooNullable: String? = "abc"
+//    println(fooNullable?.length) // => 3
+//    println(fooNullable?.length ?: -1) // => 3
+//    fooNullable = null
+//    println(fooNullable?.length) // => null
+//    println(fooNullable?.length ?: -1) // => -1
+////    main()
+//    println(varArgFun(1))
+//    println(varArgFun(1, 2))
+//    println(varArgFun(1, 2, 3, 4, 5, 6))
+//
+//    println(isOdd(3))
+//    println(isOdd(4))
+//
+//    var numberTest:NumberTest = NumberTest(4)
+//    println(numberTest.add(5))
+//    println(numberTest.multi(5))
+//
+//    var dataBean:DataBean = DataBean(3,5)
+//    println(dataBean.hashCode())
+//    println(dataBean.toString())
+//    println(dataBean.equals(DataBean(3,5)))
+//    with(dataBean){
+//        x -= 5
+//        y += 5
+//    }
+//    println(dataBean.toString())
+//
+//    var dataBean1 = dataBean.copy(y=2)
+//    println("------dataBean1---------")
+//    println(dataBean1.toString())
+//
+//    var(a, b) = dataBean;
+//    println("$a,$b")
+//
+//    for ((a ,b) in listOf(dataBean)){
+//        print("$a,$b")
+//    }
+//
+//    println()
+//    /*----List-----*/
+////    testListOf()
+////    testMutableList()
+////    testSet()
+////    testMap()
+////    testSequence()
+//
+////    testLoop()
+////println(smartCastExample(4))
+////println(smartCastExample("test"))
+////println(smartCastExample(false))
+//
+//    println(smartCastwithWhen(4))
+//    println(smartCastwithWhen("test"))
+//    println(smartCastwithWhen(false))
+//    println(smartCastwithWhen(10.5))
+//
+//    fun String.remove(char:Char):String{
+//        return this.filter { it != char }
+//    }
+//
+//    println("Hello,World".remove('o'))
+//
+//    println(EnumClass.A)
+//    println(EnumClass.B)
+//    println(EnumClass.C)
+//
+//    var objectEx1 :ObjectExample = ObjectExample;
+//    var objectEx2 :ObjectExample = ObjectExample;
+//    objectEx1.hello()
+//    println("objectEx1's hashCode" + objectEx1.hashCode())
+//    println("objectEx2's hashCode" + objectEx2.hashCode())
+//    var primary = PrimarySutdent
+//    println(primary.printInfo())
 
 //    var obj = object {
 //        var x:Int = 0
@@ -115,7 +117,9 @@ fun main(args: Array<String>) {
 
 //    testCompanionClass()
 
-    testClassDeligate()
+//    testClassDeligate()
+//    testMapDelegate()
+    testFieldDelegate()
 }
 
 
@@ -296,10 +300,28 @@ fun testCompanionClass(){
     println(x)
 }
 
-fun testClassDeligate(){
+fun testClassDelegate(){
     var bird: Bird = Bird()
 //    var birdMan:BirdMan = BirdMan(bird)
 //    birdMan.canFly()
     BirdMan(bird).canFly()
 
+}
+
+fun testMapDelegate(){
+    var user = User(mutableMapOf("name" to "xiaoMing", "age" to 5))
+    println(user.name)
+    println(user.age)
+    user.age = 4
+    println(user.age)
+
+
+}
+
+fun testFieldDelegate(){
+    var example:Example = Example(56)
+    println(example.name)
+    example.name = "xiaoHua"
+    println(example.name)
+    print(example.score)
 }

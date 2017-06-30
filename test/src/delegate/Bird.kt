@@ -1,4 +1,4 @@
-package deligate
+package delegate
 
 /**
  * Created by Tao.ZT.Zhang on 2017/6/30.
