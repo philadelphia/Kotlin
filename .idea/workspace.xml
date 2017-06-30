@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40a50bdf-e750-46a7-b79b-28c07958da10" name="Default" comment="" />
+    <list default="true" id="40a50bdf-e750-46a7-b79b-28c07958da10" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/src/deligate/Bird.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/src/deligate/BirdMan.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/src/deligate/Fly.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/src/entity/CompanionClassDemo.kt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/test/TestKt$main$obj$1.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test/BaseImpl.class" afterPath="$PROJECT_DIR$/out/production/test/BaseImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test/Derived.class" afterPath="$PROJECT_DIR$/out/production/test/Derived.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test/EnumClass.class" afterPath="$PROJECT_DIR$/out/production/test/EnumClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test/ObjectExample.class" afterPath="$PROJECT_DIR$/out/production/test/ObjectExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test/TestKt$main$2.class" afterPath="$PROJECT_DIR$/out/production/test/TestKt$main$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test/TestKt$testObjectExpression$1.class" afterPath="$PROJECT_DIR$/out/production/test/TestKt$testObjectExpression$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test/TestKt$testSequence$sequnce$1.class" afterPath="$PROJECT_DIR$/out/production/test/TestKt$testSequence$sequnce$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test/TestKt.class" afterPath="$PROJECT_DIR$/out/production/test/TestKt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test/entity/Student.class" afterPath="$PROJECT_DIR$/out/production/test/entity/Student.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/src/Test.kt" afterPath="$PROJECT_DIR$/test/src/Test.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/src/entity/Student.kt" afterPath="$PROJECT_DIR$/test/src/entity/Student.kt" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,8 +40,8 @@
       <file leaf-file-name="Student.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/src/entity/Student.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
-              <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="16" />
+            <state relative-caret-position="615">
+              <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -32,37 +50,75 @@
       <file leaf-file-name="NumberTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/src/entity/NumberTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
+            <state relative-caret-position="372">
               <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Person.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/src/entity/Person.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/src/Test.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="258" column="41" lean-forward="false" selection-start-line="258" selection-start-column="41" selection-end-line="258" selection-end-column="41" />
+            <state relative-caret-position="442">
+              <caret line="302" column="26" lean-forward="false" selection-start-line="302" selection-start-column="26" selection-end-line="302" selection-end-column="26" />
               <folding>
-                <element signature="e#0#75#0" expanded="true" />
                 <element signature="n#!!doc;n#main#0" expanded="false" />
-                <element signature="e#1071#1108#2" expanded="false" />
-                <element signature="e#1341#1371#1" expanded="false" />
+                <element signature="e#1056#1093#2" expanded="false" />
+                <element signature="e#1326#1356#1" expanded="false" />
+                <element signature="n#!!block;n#remove#0;n#!!block;n#main#0" expanded="false" />
+                <element signature="n#!!block;n#BaseImpl#0" expanded="false" />
+                <element signature="n#!!block;n#countMinusMinus#0;n#!!block;n#BaseImpl#0" expanded="false" />
+                <element signature="n#!!block;n#countPlusPlus#0;n#!!block;n#BaseImpl#0" expanded="false" />
                 <element signature="n#!!block;n#main#1" expanded="false" />
                 <element signature="n#!!block;n#varArgFun#0" expanded="false" />
                 <element signature="n#!!block;n#testListOf#0" expanded="false" />
                 <element signature="n#!!block;n#testMutableList#0" expanded="false" />
                 <element signature="n#!!block;n#testSet#0" expanded="false" />
                 <element signature="n#!!block;n#testMap#0" expanded="false" />
-                <element signature="e#4363#4418#1" expanded="false" />
+                <element signature="e#4481#4536#1" expanded="false" />
                 <element signature="n#!!block;n#testSequence#0" expanded="false" />
                 <element signature="n#!!block;n#testLoop#0" expanded="false" />
-                <element signature="e#4584#4610#1" expanded="false" />
-                <element signature="e#4643#4683#1" expanded="false" />
-                <element signature="e#4707#4745#1" expanded="false" />
-                <element signature="e#5273#5301#1" expanded="false" />
+                <element signature="e#4702#4728#1" expanded="false" />
+                <element signature="e#4761#4801#1" expanded="false" />
+                <element signature="e#4825#4863#1" expanded="false" />
+                <element signature="n#!!block;n#smartCastExample#0" expanded="false" />
+                <element signature="e#5101#5171#1" expanded="false" />
+                <element signature="e#5191#5261#1" expanded="false" />
+                <element signature="e#5284#5385#1" expanded="false" />
+                <element signature="e#5391#5419#1" expanded="false" />
+                <element signature="n#!!block;n#smartCastwithWhen#0" expanded="false" />
+                <element signature="n#!!block;n#EnumClass#0" expanded="false" />
+                <element signature="n#!!block;n#ObjectExample#0" expanded="false" />
+                <element signature="n#!!block;n#hello#0;n#!!block;n#ObjectExample#0" expanded="false" />
+                <element signature="n#!!block;n#PrimarySutdent#0" expanded="false" />
+                <element signature="n#!!block;n#printInfo#0;n#!!block;n#PrimarySutdent#0" expanded="false" />
+                <element signature="n#!!block;n#testObjectExpression#0" expanded="false" />
+                <element signature="e#6014#6282#0" expanded="false" />
+                <element signature="e#6045#6091#0" expanded="false" />
+                <element signature="e#6130#6181#0" expanded="false" />
+                <element signature="e#6222#6275#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompanionClassDemo.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/src/entity/CompanionClassDemo.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,8 +126,18 @@
       <file leaf-file-name="Base.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/src/entity/Base.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
+            <state relative-caret-position="155">
               <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BirdMan.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/src/deligate/BirdMan.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -82,11 +148,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ObjectExample</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -101,7 +175,12 @@
         <option value="$PROJECT_DIR$/test/src/entity/DataBean.kt" />
         <option value="$PROJECT_DIR$/test/src/entity/Base.kt" />
         <option value="$PROJECT_DIR$/test/src/entity/Student.kt" />
+        <option value="$PROJECT_DIR$/test/src/entity/CompanionClassDemo.kt" />
+        <option value="$PROJECT_DIR$/test/src/entity/Fly.kt" />
+        <option value="$PROJECT_DIR$/test/src/entity/Bird.kt" />
         <option value="$PROJECT_DIR$/test/src/Test.kt" />
+        <option value="$PROJECT_DIR$/test/src/entity/BirdMan.kt" />
+        <option value="$PROJECT_DIR$/test/src/deligate/BirdMan.kt" />
       </list>
     </option>
   </component>
@@ -111,6 +190,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -198,6 +278,11 @@
       <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="deligate" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -461,19 +546,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896304" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855436" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24910608" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18996416" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896304" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -554,23 +639,41 @@
         <state relative-caret-position="2387">
           <caret line="80" column="67" lean-forward="false" selection-start-line="80" selection-start-column="67" selection-end-line="80" selection-end-column="67" />
           <folding>
-            <element signature="e#0#75#0" expanded="true" />
             <element signature="n#!!doc;n#main#0" expanded="false" />
-            <element signature="e#1071#1108#2" expanded="false" />
-            <element signature="e#1341#1371#1" expanded="false" />
+            <element signature="e#1056#1093#2" expanded="false" />
+            <element signature="e#1326#1356#1" expanded="false" />
+            <element signature="n#!!block;n#remove#0;n#!!block;n#main#0" expanded="false" />
+            <element signature="n#!!block;n#BaseImpl#0" expanded="false" />
+            <element signature="n#!!block;n#countMinusMinus#0;n#!!block;n#BaseImpl#0" expanded="false" />
+            <element signature="n#!!block;n#countPlusPlus#0;n#!!block;n#BaseImpl#0" expanded="false" />
             <element signature="n#!!block;n#main#1" expanded="false" />
             <element signature="n#!!block;n#varArgFun#0" expanded="false" />
             <element signature="n#!!block;n#testListOf#0" expanded="false" />
             <element signature="n#!!block;n#testMutableList#0" expanded="false" />
             <element signature="n#!!block;n#testSet#0" expanded="false" />
             <element signature="n#!!block;n#testMap#0" expanded="false" />
-            <element signature="e#4363#4418#1" expanded="false" />
+            <element signature="e#4481#4536#1" expanded="false" />
             <element signature="n#!!block;n#testSequence#0" expanded="false" />
             <element signature="n#!!block;n#testLoop#0" expanded="false" />
-            <element signature="e#4584#4610#1" expanded="false" />
-            <element signature="e#4643#4683#1" expanded="false" />
-            <element signature="e#4707#4745#1" expanded="false" />
-            <element signature="e#5273#5301#1" expanded="false" />
+            <element signature="e#4702#4728#1" expanded="false" />
+            <element signature="e#4761#4801#1" expanded="false" />
+            <element signature="e#4825#4863#1" expanded="false" />
+            <element signature="n#!!block;n#smartCastExample#0" expanded="false" />
+            <element signature="e#5101#5171#1" expanded="false" />
+            <element signature="e#5191#5261#1" expanded="false" />
+            <element signature="e#5284#5385#1" expanded="false" />
+            <element signature="e#5391#5419#1" expanded="false" />
+            <element signature="n#!!block;n#smartCastwithWhen#0" expanded="false" />
+            <element signature="n#!!block;n#EnumClass#0" expanded="false" />
+            <element signature="n#!!block;n#ObjectExample#0" expanded="false" />
+            <element signature="n#!!block;n#hello#0;n#!!block;n#ObjectExample#0" expanded="false" />
+            <element signature="n#!!block;n#PrimarySutdent#0" expanded="false" />
+            <element signature="n#!!block;n#printInfo#0;n#!!block;n#PrimarySutdent#0" expanded="false" />
+            <element signature="n#!!block;n#testObjectExpression#0" expanded="false" />
+            <element signature="e#6014#6282#0" expanded="false" />
+            <element signature="e#6045#6091#0" expanded="false" />
+            <element signature="e#6130#6181#0" expanded="false" />
+            <element signature="e#6222#6275#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -588,23 +691,41 @@
         <state relative-caret-position="744">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <element signature="e#0#75#0" expanded="true" />
             <element signature="n#!!doc;n#main#0" expanded="false" />
-            <element signature="e#1071#1108#2" expanded="false" />
-            <element signature="e#1341#1371#1" expanded="false" />
+            <element signature="e#1056#1093#2" expanded="false" />
+            <element signature="e#1326#1356#1" expanded="false" />
+            <element signature="n#!!block;n#remove#0;n#!!block;n#main#0" expanded="false" />
+            <element signature="n#!!block;n#BaseImpl#0" expanded="false" />
+            <element signature="n#!!block;n#countMinusMinus#0;n#!!block;n#BaseImpl#0" expanded="false" />
+            <element signature="n#!!block;n#countPlusPlus#0;n#!!block;n#BaseImpl#0" expanded="false" />
             <element signature="n#!!block;n#main#1" expanded="false" />
             <element signature="n#!!block;n#varArgFun#0" expanded="false" />
             <element signature="n#!!block;n#testListOf#0" expanded="false" />
             <element signature="n#!!block;n#testMutableList#0" expanded="false" />
             <element signature="n#!!block;n#testSet#0" expanded="false" />
             <element signature="n#!!block;n#testMap#0" expanded="false" />
-            <element signature="e#4363#4418#1" expanded="false" />
+            <element signature="e#4481#4536#1" expanded="false" />
             <element signature="n#!!block;n#testSequence#0" expanded="false" />
             <element signature="n#!!block;n#testLoop#0" expanded="false" />
-            <element signature="e#4584#4610#1" expanded="false" />
-            <element signature="e#4643#4683#1" expanded="false" />
-            <element signature="e#4707#4745#1" expanded="false" />
-            <element signature="e#5273#5301#1" expanded="false" />
+            <element signature="e#4702#4728#1" expanded="false" />
+            <element signature="e#4761#4801#1" expanded="false" />
+            <element signature="e#4825#4863#1" expanded="false" />
+            <element signature="n#!!block;n#smartCastExample#0" expanded="false" />
+            <element signature="e#5101#5171#1" expanded="false" />
+            <element signature="e#5191#5261#1" expanded="false" />
+            <element signature="e#5284#5385#1" expanded="false" />
+            <element signature="e#5391#5419#1" expanded="false" />
+            <element signature="n#!!block;n#smartCastwithWhen#0" expanded="false" />
+            <element signature="n#!!block;n#EnumClass#0" expanded="false" />
+            <element signature="n#!!block;n#ObjectExample#0" expanded="false" />
+            <element signature="n#!!block;n#hello#0;n#!!block;n#ObjectExample#0" expanded="false" />
+            <element signature="n#!!block;n#PrimarySutdent#0" expanded="false" />
+            <element signature="n#!!block;n#printInfo#0;n#!!block;n#PrimarySutdent#0" expanded="false" />
+            <element signature="n#!!block;n#testObjectExpression#0" expanded="false" />
+            <element signature="e#6014#6282#0" expanded="false" />
+            <element signature="e#6045#6091#0" expanded="false" />
+            <element signature="e#6130#6181#0" expanded="false" />
+            <element signature="e#6222#6275#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -625,61 +746,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/entity/Student.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/src/entity/Person.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+        <state relative-caret-position="310">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/src/entity/NumberTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
+        <state relative-caret-position="372">
           <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/entity/Base.kt">
+    <entry file="file://$PROJECT_DIR$/test/src/entity/CompanionClassDemo.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        <state relative-caret-position="184">
+          <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/entity/Student.kt">
+    <entry file="file://$PROJECT_DIR$/test/src/deligate/Bird.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="217">
+          <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/deligate/Fly.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/src/Test.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="258" column="41" lean-forward="false" selection-start-line="258" selection-start-column="41" selection-end-line="258" selection-end-column="41" />
+        <state relative-caret-position="442">
+          <caret line="302" column="26" lean-forward="false" selection-start-line="302" selection-start-column="26" selection-end-line="302" selection-end-column="26" />
           <folding>
-            <element signature="e#0#75#0" expanded="true" />
             <element signature="n#!!doc;n#main#0" expanded="false" />
-            <element signature="e#1071#1108#2" expanded="false" />
-            <element signature="e#1341#1371#1" expanded="false" />
+            <element signature="e#1056#1093#2" expanded="false" />
+            <element signature="e#1326#1356#1" expanded="false" />
+            <element signature="n#!!block;n#remove#0;n#!!block;n#main#0" expanded="false" />
+            <element signature="n#!!block;n#BaseImpl#0" expanded="false" />
+            <element signature="n#!!block;n#countMinusMinus#0;n#!!block;n#BaseImpl#0" expanded="false" />
+            <element signature="n#!!block;n#countPlusPlus#0;n#!!block;n#BaseImpl#0" expanded="false" />
             <element signature="n#!!block;n#main#1" expanded="false" />
             <element signature="n#!!block;n#varArgFun#0" expanded="false" />
             <element signature="n#!!block;n#testListOf#0" expanded="false" />
             <element signature="n#!!block;n#testMutableList#0" expanded="false" />
             <element signature="n#!!block;n#testSet#0" expanded="false" />
             <element signature="n#!!block;n#testMap#0" expanded="false" />
-            <element signature="e#4363#4418#1" expanded="false" />
+            <element signature="e#4481#4536#1" expanded="false" />
             <element signature="n#!!block;n#testSequence#0" expanded="false" />
             <element signature="n#!!block;n#testLoop#0" expanded="false" />
-            <element signature="e#4584#4610#1" expanded="false" />
-            <element signature="e#4643#4683#1" expanded="false" />
-            <element signature="e#4707#4745#1" expanded="false" />
-            <element signature="e#5273#5301#1" expanded="false" />
+            <element signature="e#4702#4728#1" expanded="false" />
+            <element signature="e#4761#4801#1" expanded="false" />
+            <element signature="e#4825#4863#1" expanded="false" />
+            <element signature="n#!!block;n#smartCastExample#0" expanded="false" />
+            <element signature="e#5101#5171#1" expanded="false" />
+            <element signature="e#5191#5261#1" expanded="false" />
+            <element signature="e#5284#5385#1" expanded="false" />
+            <element signature="e#5391#5419#1" expanded="false" />
+            <element signature="n#!!block;n#smartCastwithWhen#0" expanded="false" />
+            <element signature="n#!!block;n#EnumClass#0" expanded="false" />
+            <element signature="n#!!block;n#ObjectExample#0" expanded="false" />
+            <element signature="n#!!block;n#hello#0;n#!!block;n#ObjectExample#0" expanded="false" />
+            <element signature="n#!!block;n#PrimarySutdent#0" expanded="false" />
+            <element signature="n#!!block;n#printInfo#0;n#!!block;n#PrimarySutdent#0" expanded="false" />
+            <element signature="n#!!block;n#testObjectExpression#0" expanded="false" />
+            <element signature="e#6014#6282#0" expanded="false" />
+            <element signature="e#6045#6091#0" expanded="false" />
+            <element signature="e#6130#6181#0" expanded="false" />
+            <element signature="e#6222#6275#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/entity/Base.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/deligate/BirdMan.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

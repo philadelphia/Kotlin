@@ -3,7 +3,7 @@ package entity
 /**
  * Created by Tao.ZT.Zhang on 2017/6/14.
  */
-class Student(var score: Int) : Person(" ", 0) {
+open class Student(var score: Int) : Person(" ", 0) {
 
     init {
         println("init class Student")
@@ -19,9 +19,13 @@ class Student(var score: Int) : Person(" ", 0) {
 
     }
 
-    fun add(base: Base){
+    open fun  add(base: Base){
         base.print()
         base.countPlusPlus()
         base.countMinusMinus()
+    }
+
+
+    open fun  printInof() {
     }
 }

@@ -1,5 +1,6 @@
+import deligate.Bird
+import deligate.BirdMan
 import entity.*
-import kotlin.reflect.jvm.internal.impl.load.kotlin.JvmType
 
 /**
  * Created by Tao.ZT.Zhang on 2017/6/14.
@@ -84,13 +85,15 @@ fun main(args: Array<String>) {
     objectEx1.hello()
     println("objectEx1's hashCode" + objectEx1.hashCode())
     println("objectEx2's hashCode" + objectEx2.hashCode())
+    var primary = PrimarySutdent
+    println(primary.printInfo())
 
-    var obj = object {
-        var x:Int = 0
-        var y:Int = 3
-    }
-
-    println(obj.x + obj.y)
+//    var obj = object {
+//        var x:Int = 0
+//        var y:Int = 3
+//    }
+//
+//    println(obj.x + obj.y)
 
 //    student.add(object : Base {
 //        var x = 3
@@ -108,7 +111,11 @@ fun main(args: Array<String>) {
 //        }
 //
 //    })
-    testObjectExpression(student)
+//    testObjectExpression(student)
+
+//    testCompanionClass()
+
+    testClassDeligate()
 }
 
 
@@ -250,22 +257,49 @@ object  ObjectExample {
         println("Hello, world")
     }
 }
+object PrimarySutdent:Student(60){
+    override fun printInfo() {
+        super.printInfo()
+        println("i'm a primary student")
+    }
+}
 
 fun testObjectExpression(student:Student){
     var x :Int = 4
     var y :Int = 4
-    student.add(object : Base{
+    student.add(base = object:Base{
         override fun print() {
-            println("x + y == "  + (x+y))
+            println(student.score)
         }
 
         override fun countPlusPlus() {
-            println("x++==" + x++)
+            println("x++==" + x.and(1))
         }
 
         override fun countMinusMinus() {
-            println("y--==" + y--)
+            println("y--==" + y.minus(1))
         }
 
     })
+
+
+}
+
+/**
+ * test companion class
+ */
+fun testCompanionClass(){
+//    var x = CompanionClassDemo.Companion
+//    println(x)
+//    var x = CompanionClassDemo.Factory.create()
+    var x = CompanionClassDemo.create() //类似于JAVA中的静态方法
+    println(x)
+}
+
+fun testClassDeligate(){
+    var bird: Bird = Bird()
+//    var birdMan:BirdMan = BirdMan(bird)
+//    birdMan.canFly()
+    BirdMan(bird).canFly()
+
 }
